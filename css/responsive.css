@@ -1,0 +1,96 @@
+@media all and (max-width: 992px) {
+    #girls .girls-main .girls-about:nth-child(2) {
+        border-style: none;
+    }
+    #girls .girls-main .girls-about {
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #navbar-main {
+        display: none;
+    }
+    #header .header-main .header-small {
+        display: none;
+    }
+    #header .header-main figure img{
+        display: none;
+    }
+}
+
+
+
+@media all and (max-width: 768px) {
+    #header .header-main video {
+        display: none;
+    }
+    #header .header-main figure img{
+        max-width: 100%;
+    }
+    
+    #header .header-main .header-intro {
+        display: none;
+    }
+    #header .header-main h1 {
+        display: none;
+    }
+    #header .header-main .header-small {
+        background-color: #e90038;
+        width: 100%;
+        padding: 25px 0 75px;
+        position: relative;
+    }
+    #header .header-main .header-small #title-sm {
+        position: absolute;
+        width: 100%;
+        top: 85%;
+        transform: translateY(-50%);
+    }
+    #blurbs .blurbs-main .row {
+        margin: 80px 30px;
+        padding: 10px 0;
+    }
+    #blurbs #left-blurb {
+        border-right-style: none;
+    }
+    #blurbs .inner-blurbs blockquote {
+        font-size: 16px;
+        margin: 0 0 12px
+    }
+    #girls {
+        padding: 0 0 35px 0;
+    }
+    #girls .girls-main h3 {
+        font-size: 30px;
+    }
+    #girls .girls-main blockquote {
+        margin-bottom: -30px;
+    }
+    #girls .girls-main blockquote p {
+        font-size: 18px;
+        padding: 10px;
+    }
+    #girls .girls-main .girls-about {
+        padding: 0 25px 0;
+    }
+    #girls .girls-main .girls-about figcaption {
+        font-size: 24px;
+    }
+    #girls .girls-main .girls-about p {
+        font-size: 12px;
+    }
+    #girls .girls-main .girls-about {
+        padding-top: 35px;
+    }
+    #about .about-main article p {
+        font-size: 16px;
+        padding: 0;
+    }
+    #about .about-main a {
+        font-size: 17px;
+    }
+    #footer .footer-main {
+        margin: 20px 25px;
+    }
+}
